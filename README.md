@@ -1,4 +1,4 @@
-# Holmeslym.github.io
+# Holmeslym.github.io（鹿鸣的 Agent 技术博客）
 
 基于 **GitHub Pages + Jekyll（Minima）** 的个人 Agent 技术博客源码。
 
