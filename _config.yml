@@ -1,0 +1,41 @@
+# GitHub Pages（username.github.io）站点配置
+# 文档：https://docs.github.com/pages
+
+title: "Holmes Agent 札记"
+description: >-
+  Agent 工程实践、RAG 与求职路上的踩坑记录。面向初中级工程师的可复现笔记。
+author:
+  name: Holmeslym
+  # email: （可选）对外邮箱可在此填写
+
+# username.github.io 仓库须 baseurl 为空字符串
+baseurl: ""
+url: "https://holmeslym.github.io"
+
+# GitHub Pages 官方支持的主题
+theme: minima
+
+# GitHub Pages 允许的白名单插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:year/:month/:day/:title/
+
+# Minima 皮肤：classic / dark / solarized-dark / solarized-light
+minima:
+  skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/Holmeslym" }
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - GitHub-Pages-Agent博客日常运营指南.md
